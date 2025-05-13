@@ -4,17 +4,11 @@ MERN Stack Web App - Dockerized Deployment
 This repository contains a full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application, containerized using Docker. The project demonstrates modern DevOps practices by building and deploying frontend and backend services independently via Dockerfiles, and orchestrating them using docker-compose.
 <img width="308" alt="image" src="https://github.com/user-attachments/assets/a15efb0f-e4d0-42ff-9056-d92faf01222d" />
 
-.
-├── product-client/                  # React frontend
-│   ├── Dockerfile           # Dockerfile for frontend
-│   └── ...                  
-├── shop-backend/                  # Node/Express backend
-│   ├── Dockerfile           # Dockerfile for backend
-│   └── ...
-├── docker-compose.yml       # Compose file to run multi-container app
-└── README.md
+
 🚀 Features
 Frontend: Built with React, containerized using a multi-stage Dockerfile for production builds.
+<img width="818" alt="image" src="https://github.com/user-attachments/assets/94df2634-8d93-422e-b87d-ef34ac9bfe3d" />
+
 
 Backend: Built with Express and Node.js, uses a Dockerfile for containerized deployment.
 
